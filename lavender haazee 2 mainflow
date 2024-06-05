@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+             height: 100%;
+             margin: 0;
+             padding: 0;
+        }
+        body { 
+            background-image: url("https://gifdb.com/images/high/lavender-cartoon-clouds-background-u7w65rqbor29e7wi.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: right-top;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #A020F0;
+            text-align: center;
+            font-size: 50px;
+            font-family: serif;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #280317;
+            text-align: center;
+            font-size: 30px;
+            margin: 6px 0;
+            font-family: serif;
+        }
+
+        .header {
+            background-image: url('https://img.freepik.com/premium-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-67812.jpg');
+            border: 3px solid #F8F9D7;
+            color: white;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .header a {
+            color: #A020F0;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius: 4px;
+            margin: 5px;
+        }
+
+        .header a.active {
+            background-color: hotpink;
+            color: white;
+        }
+
+        .header-right {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+.footer {
+            background-color: #1E0342;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+ @media (max-width: 768px) {
+            .product {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+        }    </style>
+<body>
+<div class="header">
+<h1>LAVENDER HAAZEE<h1>
+<div class="header-left">
+<a class="active" href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="items.html">Items</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+<div style="padding-middle:20px">
+<h2>Handcrafter Jewellery<br/>
+Every piece of jewelery tells a story<br/></h2>
+<footer class="footer">
+<p>&copy; All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>
